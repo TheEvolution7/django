@@ -87,13 +87,9 @@ DATABASES = {
     #     'HOST': os.environ["PGHOST"],
     #     'PORT': os.environ["PGPORT"],
     # }
-     "default": {
-            "ENGINE": "django.contrib.gis.db.backends.postgis",
-            "NAME": "railway",
-            "USER": "postgres",
-            "PASSWORD": "BfCD5GCfcddBF361adbDeaEfe3EbbBGe",
-            "HOST": "monorail.proxy.rlwy.net",
-            "PORT": "44017",
+    "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
         }
 }
 
