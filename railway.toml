@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["gdal"]
+nixPkgs = ["cowsay"]
 
 [start]
-cmd = "ls"
+cmd = "./start.sh"
