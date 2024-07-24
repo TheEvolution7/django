@@ -3,3 +3,6 @@ nixPkgs = ["cowsay"]
 
 [start]
 cmd = "./start.sh"
+
+[deploy]
+startCommand = "gunicorn _mrmatch.wsgi"
